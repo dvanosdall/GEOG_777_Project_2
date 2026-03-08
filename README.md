@@ -79,6 +79,7 @@ Never used this before but saw this worked pretty well, used mermaid (Free: http
 
  *Tip: Right-click the diagram and select "Open link in new tab" to keep this page open.*
 
+```mermaid
 flowchart LR
     UserDevice[User Device - Mobile/Web]
     Client[Client Side - Leaflet.js, Bootstrap, JS]
@@ -92,6 +93,7 @@ flowchart LR
     API -->|Spatial Data Queries| DB
     DB -->|Data Response| API
     API -->|Data for Map Layers| Layers
+```
 
 [Back to Top](#table-of-contents)
 
