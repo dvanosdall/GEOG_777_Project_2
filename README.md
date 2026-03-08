@@ -3,7 +3,9 @@
 This repository is designed to house the development workflows, data models, and documentation for **GEOG 777 Project 2**.
 Project 2 focuses on building a mobile friendly, user centered WebGIS application for park visitors.  The app will allow exploration of park features on an interactive map, searching by themes such as safety, accessibility, and recreation, and enabling visitor data submission.
 
+
 **_Note: This project is being developed following an agile framework. The design, features, and tools are subject to change as feedback is received and as work progresses._**
+
 
 Repository link: [dvanosdall/GEOG_777_Project_2](https://github.com/dvanosdall/GEOG_777_Project_2)
 
