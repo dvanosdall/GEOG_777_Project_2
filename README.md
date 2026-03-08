@@ -73,7 +73,7 @@ This app solves the problem by providing:
 
 Never used this before but saw this worked pretty well, used mermaid (Free: https://mermaid.live/)
 
-![Architecture Diagram](ArchtectureProject2.png)
+![Architecture Diagram](ArchitectureProject2.png)
 
 flowchart LR
     UserDevice[User Device - Mobile/Web]
