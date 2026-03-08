@@ -76,6 +76,7 @@ Never used this before but saw this worked pretty well, used mermaid (Free: http
 [![Architecture Diagram](ArchitectureProject2.png)](ArchitectureProject2.png)
 
 <sub>[Click the diagram to view full size in a new tab]</sub>
+ *Tip: Right-click the diagram and select "Open link in new tab" to keep this page open.*
 
 flowchart LR
     UserDevice[User Device - Mobile/Web]
