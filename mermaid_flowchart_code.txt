@@ -1,0 +1,15 @@
+```mermaid
+flowchart LR
+    UserDevice[User Device - Mobile/Web]
+    Client[Client Side - Leaflet.js, Bootstrap, JS]
+    API[API/Server - Node.js, Express]
+    DB[PostgreSQL + PostGIS]
+    Layers[Map Layers - Features, Trails, Reports]
+
+    UserDevice --> Client
+    Client -->|Map Display and Layer Toggle| Layers
+    Client -->|Queries and Submissions| API
+    API -->|Spatial Data Queries| DB
+    DB -->|Data Response| API
+    API -->|Data for Map Layers| Layers
+```

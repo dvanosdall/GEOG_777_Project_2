@@ -79,21 +79,9 @@ Never used this before but saw this worked pretty well, used mermaid (Free: http
 
  *Tip: Right-click the diagram and select "Open link in new tab" to keep this page open.*
 
-```mermaid
-flowchart LR
-    UserDevice[User Device - Mobile/Web]
-    Client[Client Side - Leaflet.js, Bootstrap, JS]
-    API[API/Server - Node.js, Express]
-    DB[PostgreSQL + PostGIS]
-    Layers[Map Layers - Features, Trails, Reports]
+[View Mermaid flowchart code (mermaid_flowchart_code.txt)](mermaid_flowchart_code.txt)
 
-    UserDevice --> Client
-    Client -->|Map Display and Layer Toggle| Layers
-    Client -->|Queries and Submissions| API
-    API -->|Spatial Data Queries| DB
-    DB -->|Data Response| API
-    API -->|Data for Map Layers| Layers
-```
+<sub>Click the link above to see/copy the code. Paste it in the <a href="https://mermaid.live/" target="_blank">Mermaid Live Editor</a> to view or modify the diagram.</sub>
 
 [Back to Top](#table-of-contents)
 
