@@ -8,6 +8,7 @@
  * to park bounds; loads features as markers from API.
  * Also allows user submissions by right-clicking to add a point of interest.
  */
+
 require('dotenv').config();
 mapboxgl.accessToken = process.env.MAPBOX_ACCESS_TOKEN;
 
