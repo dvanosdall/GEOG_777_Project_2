@@ -9,8 +9,7 @@
  * Also allows user submissions by right-clicking to add a point of interest.
  */
 
-require('dotenv').config();
-mapboxgl.accessToken = process.env.MAPBOX_ACCESS_TOKEN;
+mapboxgl.accessToken = MAPBOX_ACCESS_TOKEN;
 
 // Park Center and Bounds (Eugene T. Mahoney State Park)
 const parkCenter = [-96.3122, 41.0261]; // [lng, lat]
@@ -57,7 +56,7 @@ map.on('contextmenu', function (e) {
   <form id="userSubmissionForm" style="min-width:220px">
     <div>
       <label>Feature Type:<br>
-        <select name="feature_id" class="form-select form-select-sm" required style="width:95%">
+        <select name="feature_id" class="form-select form-select-sm" style="width:95%">
   <option value="" selected disabled>-- No features defined yet --</option>
 </select>
       </label>
