@@ -92,7 +92,7 @@ All technologies align with project requirements and support spatial, mobile fri
 
 ### Programming Languages & Frameworks
 - **JavaScript (ES6+)**: Client logic and UI interactivity
-- **Leaflet.js**: Interactive mapping and spatial layer management
+- **Mapbox GL JS**: Interactive mapping and spatial layer management
 - **Bootstrap**: Responsive/mobile-friendly UI styling
 - **Node.js + Express**: Server logic and API endpoints
 
@@ -114,15 +114,15 @@ The database design for this project follows the three-phase process from Geogra
 
 ### 1. Conceptual Design
 - **ER Diagram:** Visualizes relationships and attributes among park features and user submissions.
-- **TBD:** Diagram will include entities for park facilities, trails, entrances/exits, and user-contributed data.
+- **Image:** See ER-Diagram.png for the current version.
 
 ### 2. Logical Design
 - **Schema:** Outlines tables/relationships and spatial data types (e.g., point for facilities, line for trails, polygon for park areas).
-- **TBD:** Draft schema will connect key entities and clarify attributes for each feature type.
+- **File:** See db/schema.sql for the draft schema connecting park, features, trails, facilities, and user submissions.
 
 ### 3. Physical Design
 - **Implementation:** Actual database structure in PostgreSQL/PostGIS; indexing, storage format, and spatial reference.
-- **TBD:** Physical details will be provided once schema is finalized.
+- **Included:** Physical details are implemented in db/schema.sql.
 
 [Back to Top](#table-of-contents)
 
